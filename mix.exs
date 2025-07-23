@@ -87,12 +87,12 @@ defmodule Oban.Web.MixProject do
       {:phoenix, "~> 1.7"},
       {:phoenix_html, "~> 3.3 or ~> 4.0"},
       {:phoenix_pubsub, "~> 2.1"},
-      {:phoenix_live_view, "~> 1.0"},
+      {:phoenix_live_view, "~> 1.1.0-rc.4"},
 
       # Oban
       {:oban, "~> 2.19"},
       {:oban_met, "~> 1.0"},
-      {:oban_pro, "~> 1.5", repo: :oban, only: [:test, :dev]},
+      # {:oban_pro, "~> 1.5", repo: :oban, only: [:test, :dev]},
 
       # Databases
       {:ecto_sqlite3, "~> 0.18", only: [:dev, :test]},
